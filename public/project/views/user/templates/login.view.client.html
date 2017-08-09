@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="col-xs-3"></div>
+    <div class="col-xs-6">
+        <label for="username">Username</label>
+        <input type="text"
+               id="username"
+               ng-model="username"
+               class="form-control">
+        <label for="password">Password</label>
+        <input type="password"
+               id="password"
+               ng-model="password"
+               class="form-control">
+        <a class="btn btn-block btn-primary" ng-click="model.login(username,password)">Login</a>
+        <a class="btn btn-block btn-primary" href="#!/register">Register</a>
+    </div>
+</div>
